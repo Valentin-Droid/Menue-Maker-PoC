@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { auth } from "@/lib/firebase"; 
 import { useAuth } from "@/context/authContext";
+import { FcGoogle } from "react-icons/fc";
 
 export default function Login() {
   const { user, loading } = useAuth();
@@ -95,9 +96,10 @@ export default function Login() {
           <p className="text-sm text-gray-600">Ou connectez-vous avec :</p>
           <button
             onClick={handleGoogleLogin}
-            className="w-full py-2 px-4 bg-red-600 text-white font-semibold rounded-md hover:bg-red-700"
+            className="flex items-center justify-center w-full py-3 px-6 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300 ease-in-out"
           >
-            Connexion avec Google
+            <FcGoogle className="mr-3 text-xl" />
+            Se connecter avec Google
           </button>
           <p className="text-sm text-gray-600">
             Pas de compte ?{" "}
