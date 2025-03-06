@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="dHB0r-c7KoPfAYoB03nf">
-    <mxGraphModel>
+    <mxGraphModel dx="1048" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UnkrKOcINklkp5FdKrxt-2" value="Architecture de Contrôle Domotique en Cloud avec Tuya Smart" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="44" y="40" width="740" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UnkrKOcINklkp5FdKrxt-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="44" y="120" width="760" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UnkrKOcINklkp5FdKrxt-5" value="Couche Appareils IoT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="359" y="130" width="171" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
